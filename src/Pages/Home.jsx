@@ -259,8 +259,8 @@ const Home = () => {
 
                 <motion.a
                   className="resume-btn mt-5"
-                  href="/Preet CV.pdf"
-                  download="Preet_Kachhadiya_Resume.pdf"
+                  href="/Pritkumar_Kachhadiya_24-09-2026.pdf"
+                  download="Pritkumar_Kachhadiya_Resume.pdf"
                   target="_blank"
                 >
                   Download Resume <FontAwesomeIcon icon={faDownload} />
