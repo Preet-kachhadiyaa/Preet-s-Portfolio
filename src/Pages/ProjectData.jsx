@@ -58,19 +58,36 @@ export const projects = [
     features: [],
     link: "https://phd-interior1.vercel.app/",
   },
-  {
+{
     id: 4,
-    title: "Simple TODO Dashboard",
-    category: "TODO List",
+    title: "Canteen Split",
+    category: "Expense Management",
     description:
-      "ToDo List is a simple and intuitive task management application designed to help users organize their daily activities and stay productive. With a clean, responsive front-end interface, it allows users to effortlessly add, delete, and mark tasks as completed.",
-    image: "/Image/Todo.png",
+        "Canteen Split is a web-based expense management application designed to simplify the process of splitting and tracking shared canteen expenses among students and groups.",
+    image: "/Image/Canteen Split.png",
     overview:
-      "ToDo List is a lightweight, easy-to-use web application designed to help users manage their tasks and stay organized. The platform allows users to create, edit, delete, and mark tasks as completed, ensuring a streamlined approach to task management. With a simple, responsive design, the app focuses on user-friendly navigation and a minimalistic interface that ensures productivity without distractions. ",
-    technologies: ["React","Tailwind","Bootstrap","CSS","Javascript"],
-    features: [],
-    link: "https://todo-app-react-topaz-delta.vercel.app/",
-  },
+        "Canteen Split is a simple and user-friendly web application that helps users manage shared canteen expenses. It makes it easier to record expenses, divide costs among multiple people, and keep track of individual balances. The application provides an organized way to manage group expenses while reducing manual calculations.",
+    technologies: [
+        "React",
+        "JavaScript",
+        "Tailwind CSS",
+        "HTML5",
+        "CSS3"
+    ],
+    features: [
+        "Shared canteen expense management",
+        "Add and manage group members",
+        "Record individual expenses",
+        "Split expenses among multiple users",
+        "Calculate individual shares",
+        "Track shared expenses",
+        "View expense details",
+        "Simple and intuitive interface",
+        "Responsive design",
+        "User-friendly expense tracking"
+    ],
+    link: "https://canteen-split.vercel.app/",
+},
   {
     id: 5,
     title: "Park Heaven",
@@ -88,6 +105,7 @@ export const projects = [
         "Font Awasome Icons",      
         "JavaScript",        
         "GitHub",
+        "PHP"
       ],
       features: [
         "Real-Time Parking Availability",
@@ -98,6 +116,6 @@ export const projects = [
         "Real-Time Data Analytics for Admin Monitoring",
         "Parking Lot Location Mapping and Navigation"
       ],      
-      link: "/Park-Heaven.pdf"
+      link: "https://parkheaven.infinityfree.io/"
     },
 ];
